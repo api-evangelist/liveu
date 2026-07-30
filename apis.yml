@@ -1,8 +1,16 @@
 aid: liveu
 name: Liveu
-description: Liveu is a company surfaced as a portfolio company of canaan-partners, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  LiveU is a provider of cloud-based, IP-bonded live video contribution, production, and distribution
+  technology for broadcasters, sports, news, public safety, and enterprise. Its portfolio spans field
+  encoders (the LU-series and the Q Era LU900Q), the LiveU Central cloud management platform, LiveU
+  Studio and Nexus production tools, the LiveU Matrix distribution grid, DataBridge and LU-LINK
+  connectivity, and the LiveU Solo streaming line. LiveU pioneered bonded-cellular transmission that
+  aggregates multiple LTE/5G, Wi-Fi, and satellite links into a single reliable, low-latency video feed.
+  This profile was surfaced as a venture-capital portfolio company and enriched by the API Evangelist
+  pipeline; LiveU publishes marketing, support, and training surfaces but no public developer portal,
+  OpenAPI, or open API documentation was found - the LiveU Central API is available to customers behind
+  authentication.
 url: https://raw.githubusercontent.com/api-evangelist/liveu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +19,67 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.liveu.tv/wp-content/uploads/2021/09/liveu-logo.png
 tags:
 - Company
+- Live Video
+- Video Streaming
+- Broadcast
+- Bonded Cellular
+- Video Contribution
+- Media & Entertainment
+- Sports Production
+- Public Safety
+- 5G
 apis: []
+common:
+- type: TrustCenter
+  url: security/liveu-trust-center.yml
+- type: Compliance
+  url: https://www.liveu.tv/security
+- type: VulnerabilityDisclosure
+  url: security/liveu-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.liveu.tv/security
+- type: DomainSecurity
+  url: security/liveu-domain-security.yml
+- type: Website
+  url: https://www.liveu.tv/
+- type: HelpCenter
+  url: https://support.liveu.tv/hc/en-us
+- type: Support
+  url: https://support.liveu.tv/hc/en-us
+- type: Blog
+  url: https://www.liveu.tv/resources/blog
+- type: Products
+  url: https://www.liveu.tv/products
+- type: PrivacyPolicy
+  url: https://www.liveu.tv/privacy-policy
+- type: TermsOfService
+  url: https://www.liveu.tv/terms-of-use
+- type: LLMsTxt
+  url: llms/liveu-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
