@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://www.liveu.tv/wp-content/uploads/2021/09/liveu-logo.png
 tags:
 - Company
@@ -69,6 +69,8 @@ tags_raw:
 - 5G
 apis: []
 common:
+- url: https://www.liveu.tv/feed
+  type: BlogRSS
 - type: TrustCenter
   url: security/liveu-trust-center.yml
 - type: Compliance
